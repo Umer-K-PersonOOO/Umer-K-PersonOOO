@@ -10,12 +10,12 @@ function NavigationPage() {
         {/* Menu is not centered */}
         <div
           id="link-container"
-          className=" text-8xl flex flex-col custom-padding"
+          className="group text-8xl flex flex-col gap-y-10 "
         >
-          <a href="/"> About Me </a>
-          <a href="/"> Experience </a>
-          <a href="/"> Projects </a>
-          <a href="/"> Contact Me </a>
+          <a href="/" id="links" className="group-hover:opacity-30 group-hover:hover:opacity-100 transition-opacity"> About Me </a>
+          <a href="/" id="links" className="group-hover:opacity-30 group-hover:hover:opacity-100 transition-opacity"> Experience </a>
+          <a href="/" id="links" className="group-hover:opacity-30 group-hover:hover:opacity-100 transition-opacity"> Projects </a>
+          <a href="/" id="links" className="group-hover:opacity-30 group-hover:hover:opacity-100 transition-opacity"> Contact Me </a>
         </div>
       </div>
     </div>
