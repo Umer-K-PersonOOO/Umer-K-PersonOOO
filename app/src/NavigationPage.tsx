@@ -11,34 +11,33 @@ function NavigationPage() {
           className="group text-6xl flex flex-col "
         >
 
-          <a
-            href="/"
+          <button
+            // href="/"
             id="links-about"
-            className="group-hover:opacity-30 group-hover:hover:opacity-100 transition-opacity py-6"
-          >
-            About Me
-          </a>
-          <a
-            href="/"
+            className="group-hover:opacity-30 group-hover:hover:opacity-100 transition-opacity py-6 text-left"
+          >About Me</button>
+          <button
+            // href="/"
             id="links-exp"
-            className="group-hover:opacity-30 group-hover:hover:opacity-100 transition-opacity py-6"
+            className="group-hover:opacity-30 group-hover:hover:opacity-100 transition-opacity py-6 text-left"
           >
             Experience
-          </a>
+          </button>
+          <button
+            // href="/"
+            id="links-contact"
+            className="group-hover:opacity-30 group-hover:hover:opacity-100 transition-opacity py-6 text-left"
+          >
+            Contact Me
+          </button>
           <a
             href="/"
             id="links-proj"
-            className="group-hover:opacity-30 group-hover:hover:opacity-100 transition-opacity py-6"
+            className="group-hover:opacity-30 group-hover:hover:opacity-100 transition-opacity py-6 text-left"
           >
             Projects
           </a>
-          <a
-            href="/"
-            id="links-contact"
-            className="group-hover:opacity-30 group-hover:hover:opacity-100 transition-opacity py-6"
-          >
-            Contact Me
-          </a>
+          
         </div>
       </div>
       <div

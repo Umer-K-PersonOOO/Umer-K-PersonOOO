@@ -14,7 +14,7 @@
 }
 
 body:has(#link-container:hover) #background-image {
-  transition: 300ms ease;
+  transition: 800ms ease;
   width: 28%;
   opacity: 50%;
 }
@@ -33,11 +33,11 @@ body:has(#links-exp:hover) #circle-tile {
   background-position: 0% 20%;
 }
 
-body:has(#links-proj:hover) #circle-tile {
+body:has(#links-contact:hover) #circle-tile {
   background-position: 0% 30%;
 }
 
-body:has(#links-contact:hover) #circle-tile {
+body:has(#links-proj:hover) #circle-tile {
   background-position: 0% 40%;
 }
 
@@ -52,10 +52,11 @@ body:has(#links-exp:hover) #background-image {
   
 }
 
-body:has(#links-proj:hover) #background-image {
+body:has(#links-contact:hover) #background-image {
   background-position-y: 55%;
 }
 
-body:has(#links-contact:hover) #background-image {
+body:has(#links-proj:hover) #background-image {
   background-position-y: 75%;
 }
+
