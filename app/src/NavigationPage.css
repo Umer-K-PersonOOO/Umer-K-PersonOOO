@@ -1,3 +1,61 @@
 #link-container {
   margin: clamp(1rem, 20vw, 30vw);
 }
+
+#circle-tile {
+  transition: background-size 800ms ease, opacity 800ms ease, background-position 800ms ease; /* Add all necessary transitions */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='80' viewBox='0 0 40 10'%3E%3Cg fill='%23dbdbdb' fill-opacity='0.4'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
+  background-position: 0% 0%;
+  background-size: 12vmin 12vmin;
+}
+
+#background-image {
+  transition: width 300ms ease, opacity 300ms ease, background-position-y 300ms ease; /* Add all necessary transitions */
+}
+
+body:has(#link-container:hover) #background-image {
+  transition: 300ms ease;
+  width: 28%;
+  opacity: 50%;
+}
+
+body:has(#link-container:hover) #circle-tile {
+  transition: 800ms ease;
+  background-size: 10vmin 10vmin;
+  opacity: 50%;
+}
+
+body:has(#links-about:hover) #circle-tile {
+  background-position: 0% 10%;
+}
+
+body:has(#links-exp:hover) #circle-tile {
+  background-position: 0% 20%;
+}
+
+body:has(#links-proj:hover) #circle-tile {
+  background-position: 0% 30%;
+}
+
+body:has(#links-contact:hover) #circle-tile {
+  background-position: 0% 40%;
+}
+
+/*  */
+
+body:has(#links-about:hover) #background-image {
+  background-position-y: 10%;
+}
+
+body:has(#links-exp:hover) #background-image {
+  background-position-y: 35%;
+  
+}
+
+body:has(#links-proj:hover) #background-image {
+  background-position-y: 55%;
+}
+
+body:has(#links-contact:hover) #background-image {
+  background-position-y: 75%;
+}
