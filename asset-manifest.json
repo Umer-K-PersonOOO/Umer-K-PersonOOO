@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/umer-k-personooo/static/css/main.4b499904.css",
-    "main.js": "/umer-k-personooo/static/js/main.20cc6f54.js",
-    "static/js/453.a6a97343.chunk.js": "/umer-k-personooo/static/js/453.a6a97343.chunk.js",
-    "index.html": "/umer-k-personooo/index.html",
-    "main.4b499904.css.map": "/umer-k-personooo/static/css/main.4b499904.css.map",
-    "main.20cc6f54.js.map": "/umer-k-personooo/static/js/main.20cc6f54.js.map",
-    "453.a6a97343.chunk.js.map": "/umer-k-personooo/static/js/453.a6a97343.chunk.js.map"
+    "main.css": "/Umer-K-PersonOOO/static/css/main.4b499904.css",
+    "main.js": "/Umer-K-PersonOOO/static/js/main.e3c844df.js",
+    "static/js/453.a6a97343.chunk.js": "/Umer-K-PersonOOO/static/js/453.a6a97343.chunk.js",
+    "index.html": "/Umer-K-PersonOOO/index.html",
+    "main.4b499904.css.map": "/Umer-K-PersonOOO/static/css/main.4b499904.css.map",
+    "main.e3c844df.js.map": "/Umer-K-PersonOOO/static/js/main.e3c844df.js.map",
+    "453.a6a97343.chunk.js.map": "/Umer-K-PersonOOO/static/js/453.a6a97343.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4b499904.css",
-    "static/js/main.20cc6f54.js"
+    "static/js/main.e3c844df.js"
   ]
 }
