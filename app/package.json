@@ -1,7 +1,7 @@
 {
   "name": "app",
   "version": "0.1.0",
-  "homepage": "https://umer-k-personooo.github.io/",
+  "homepage": "https://umer-k-personooo.github.io",
   "private": true,
   "dependencies": {
     "@craco/craco": "^7.1.0",
