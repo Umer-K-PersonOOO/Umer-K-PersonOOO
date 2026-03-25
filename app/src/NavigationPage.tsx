@@ -34,7 +34,7 @@ function NavigationPage() {
               Contact Me
             </button>
             <a
-              href="/"
+              // href="/"
               id="links-proj"
               className="group-hover:opacity-30 group-hover:hover:opacity-100 transition-opacity py-6 text-left"
             >

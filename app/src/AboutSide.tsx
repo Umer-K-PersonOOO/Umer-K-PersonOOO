@@ -5,13 +5,13 @@ function AboutSide() {
   return (
     <div className="h-full w-full flex flex-col  items-center gap-8">
           <div className="text-6xl font-serif">
-            Hello, I'm <span className="text-[#FFA500]">Umer Khan</span>
+            Hello, I'm <span className="text-[#FFA500]">PersonOOO</span>
           </div>
 
           <div id="cards">
             <div id="card">
               <div id="card-content">
-                <img src=".\headshot.jpg" id="imgd" className="w-[95%]"></img>
+                <img src="/lulustare.png" id="imgd" alt="PersonOOO portrait" />
               </div>
             </div>
           </div>
@@ -21,15 +21,11 @@ function AboutSide() {
             className="w-[80%] text-center text-[1.1vw] "
           >
             <p>
-              I'm a Sophomore at the University of Texas pursuing a bachelor's
-              degree in Computer Science.
+              Hi yall!
             </p>
             <br />
             <p>
-              Since my first coding class in high school, I've been passionate
-              about what I can create to share with others. No matter how
-              important, silly, or complex the project, I'm always excited to
-              learn and grow from the experience.
+              The site is under construction, it'll just be projects (art and code) that I like though.
             </p>
             <br />
             <p>
