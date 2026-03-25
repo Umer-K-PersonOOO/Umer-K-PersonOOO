@@ -4,6 +4,8 @@ import "./NavigationPage.css";
 import AboutSide from "./AboutSide";
 
 function NavigationPage() {
+  const backgroundImage = `url('${process.env.PUBLIC_URL}/pfptransparent.png')`;
+
   return (
     <div className="relative h-screen bg-fallback text-white font-serif flex ">
       <div className="w-1/2 ">
@@ -49,7 +51,7 @@ function NavigationPage() {
         <div
           className="absolute inset-0 z-1 w-[30%] h-full bg-cover bg-center"
           style={{
-            backgroundImage: `url('/pfptransparent.png')`,
+            backgroundImage,
             backgroundSize: "70%",
             backgroundRepeat: "repeat-y",
           }}

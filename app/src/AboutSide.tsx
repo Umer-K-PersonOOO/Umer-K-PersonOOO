@@ -2,6 +2,8 @@ import React from "react";
 import "./AboutSide.css";
 
 function AboutSide() {
+  const portraitSrc = `${process.env.PUBLIC_URL}/lulustare.png`;
+
   return (
     <div className="h-full w-full flex flex-col  items-center gap-8">
           <div className="text-6xl font-serif">
@@ -11,7 +13,7 @@ function AboutSide() {
           <div id="cards">
             <div id="card">
               <div id="card-content">
-                <img src="/lulustare.png" id="imgd" alt="PersonOOO portrait" />
+                <img src={portraitSrc} id="imgd" alt="PersonOOO portrait" />
               </div>
             </div>
           </div>
