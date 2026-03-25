@@ -35,6 +35,20 @@ function AboutSide() {
               collaborations. (Even if it's just to chat!)
             </p>
           </div>
+
+          <div style={{ textAlign: "left", margin: "30px 0" }}>
+            <a href="https://utcs-webring.krisub.workers.dev/prev?from=https://umer-k-personooo.github.io/Umer-K-PersonOOO">
+              ←
+            </a>{" "}
+            |{" "}
+            <a href="https://krisub.github.io/utcs-webring/">
+              <strong>utcs-webring</strong>
+            </a>{" "}
+            |{" "}
+            <a href="https://utcs-webring.krisub.workers.dev/next?from=https://umer-k-personooo.github.io/Umer-K-PersonOOO">
+              →
+            </a>
+          </div>
         </div>
   );
 }
